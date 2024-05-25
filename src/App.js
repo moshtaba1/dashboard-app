@@ -10,10 +10,15 @@ export default function App() {
 
   return (
     <>
-      <TopBar/>
-      <div className='container'>
-        <SideBar/>
-        {router}
+      <div className="small-screen">
+        <h1>Please Enter with Desktop...</h1>
+      </div>
+      <div className="big-screen">
+        <TopBar />
+        <div className="container">
+          <SideBar />
+          {router}
+        </div>
       </div>
     </>
   );
