@@ -13,3 +13,23 @@ body{
     text-decoration: none;
     color: inherit;
 }
+
+.small-screen{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: static;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:840px) {
+    .big-screen{
+        display: none;
+    }
+    .small-screen{
+        display: flex;
+    }
+
+}
